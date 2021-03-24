@@ -10,15 +10,15 @@
 
 		@foreach ($data['bottombanner'] as $result)
 
-		<div class="col-lg-4 col-sm-12" style="text-align:center;">
+		{{-- <div class="col-lg-4 col-sm-12" style="text-align:center;"> --}}
 
 			
 
-			<a href="//{{$result->b_link}}" target=_blank><img src="{{$url}}dazohb2/public/uploads/banner-img/{{$result->b_img_path}}" style="width:300px;height:300px;"></a>
+			<a href="//{{$result->b_link}}" class="margin-x-auto" target=_blank><img src="{{$url}}dazohb2/public/uploads/banner-img/{{$result->b_img_path}}" style="width:1092px;height:300px;"></a>
 
 			
 
-		</div>
+		{{-- </div> --}}
 
 		@endforeach
 
