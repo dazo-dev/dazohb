@@ -36,7 +36,7 @@
 
         <div class="d-flex"> 
 
-          <div class="col-sm-11 col-9 margin-y-auto">
+          <div class="margin-y-auto w-100">
 
             <div class="title-block">
 
@@ -46,7 +46,7 @@
 
           </div>
 
-          <div class="col-sm-1 col-1">
+          <div class="w-auto">
 
             <div class="btn-block">
 
@@ -84,7 +84,7 @@
 
         <div class="d-flex">
 
-          <div class="col-sm-11 col-9 margin-y-auto">
+          <div class="margin-y-auto w-100">
 
             <div class="title-block">
 
@@ -94,7 +94,7 @@
 
           </div>
 
-          <div class="col-sm-1 col-1">
+          <div class="w-auto">
 
             <h2 class="mb-0 btn-block">
 
@@ -130,7 +130,7 @@
 
         <div class="d-flex">
 
-          <div class="col-sm-11 col-9 margin-y-auto">
+          <div class="margin-y-auto w-100">
 
             <div class="title-block">
 
@@ -140,7 +140,7 @@
 
           </div>
 
-          <div class="col-sm-1 col-1">
+          <div class="w-auto">
 
             <h2 class="mb-0 btn-block">
 
@@ -176,7 +176,7 @@
 
         <div class="d-flex">
 
-          <div class="col-sm-11 col-9 margin-y-auto">
+          <div class="margin-y-auto w-100">
 
             <div class="title-block">
 
@@ -186,7 +186,7 @@
 
           </div>
 
-          <div class="col-sm-1 col-1">
+          <div class="w-auto">
 
             <h2 class="mb-0 btn-block">
 
@@ -220,7 +220,7 @@
 
   <div class="row register-block">
 
-    <button class="register-now" data-toggle="modal" data-target="#registerModal">REGISTER NOW</button>
+    <button class="register-now mx-auto" data-toggle="modal" data-target="#registerModal">REGISTER NOW</button>
 
   </div>
 

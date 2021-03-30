@@ -64,8 +64,65 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-  /* CSS */
+  .sect-2{
+    #calenderCarouselIndicator {
+      text-align: center;
+    }
+
+    .carousel-control-prev {
+			transform: translate(0, 0);
+		}
+
+		.carousel-control-next {
+			transform: translate(0, 0);
+		}
+  }
   
+  .partner-section {
+    text-align: center;
+    .inner-left {
+      padding: 1.5rem;
+    }
+
+    .winnerlogo {
+      margin-top: 10em;
+    }
+
+    .floating-horse {
+			width: 170% !important;
+      left: 0% !important;
+      top: -25% !important;
+		}
+
+    .partner-header{
+      .h-sect2{
+        display: none !important;
+      }
+    }
+
+    .partners-content {
+      div:nth-child(2) {
+        margin-top: 10px !important;
+      }
+    }
+  }
+
+  .buy-coins {
+    padding: 5rem 5rem 0rem 5rem;
+  }
+
+  .right-block{
+    margin-top: 3rem !important;
+
+    .header {
+      margin-top: 1.5rem !important;
+      text-align: center !important;
+    }
+
+    .right-content {
+      padding: 2.5rem 10% !important;
+    }
+  }
 }
 
 /* 
@@ -157,45 +214,51 @@
 
   .sect-2{
     height: auto;
-    .carousel-item{
-      img{
-        /* margin-left: -250%; */
-        height: 200px !important;
-      }
 
-      .col-sm-6{
-        img{
-          margin-left: 0%;
-          margin-top: 5%;
-        }
-      }
-
-      .block-header{
-        width: 300px;
-        padding: 0 10%;
-      }
-
-      .block-sub{
-        font-size: 35px;
-        width: 190%;
+    #calenderCarouselIndicator {
+      .block-header {
         text-align: center;
-      }
-
-      .block-content{
-        width: 200%;
-        text-align: center;
-      }
-
-      .block-btn{
-        padding-top: 10%;
-        width: 190%;
-        text-align: center;
-
-        button{
-          width: 100%;
-        }
       }
     }
+    // .carousel-item{
+    //   img{
+    //     /* margin-left: -250%; */
+    //     height: 200px !important;
+    //   }
+
+    //   .col-sm-6{
+    //     img{
+    //       margin-left: 0%;
+    //       margin-top: 5%;
+    //     }
+    //   }
+
+    //   .block-header{
+    //     width: 300px;
+    //     padding: 0 10%;
+    //   }
+
+    //   .block-sub{
+    //     font-size: 35px;
+    //     width: 190%;
+    //     text-align: center;
+    //   }
+
+    //   .block-content{
+    //     width: 200%;
+    //     text-align: center;
+    //   }
+
+    //   .block-btn{
+    //     padding-top: 10%;
+    //     width: 190%;
+    //     text-align: center;
+
+    //     button{
+    //       width: 100%;
+    //     }
+    //   }
+    // }
   }
 
   .section-bet{
@@ -499,19 +562,19 @@
 
   
 
-  .map-section{
-    .left-block{
-      .block-layer{
-        height: auto;
-        .header {
-          width: 100%;
-          font-size: 22px;
-          text-align: center;
-          padding: 0 12%;
-        }
-      }
-    }
-  }
+  // .map-section{
+  //   .left-block{
+  //     .block-layer{
+  //       height: auto;
+  //       .header {
+  //         width: 100%;
+  //         font-size: 22px;
+  //         text-align: center;
+  //         padding: 0 12%;
+  //       }
+  //     }
+  //   }
+  // }
 
   .bottom-ads-section{
     padding: 3% 0%;

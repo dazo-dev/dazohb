@@ -40,7 +40,7 @@
 
                 <div class="dropdown show align-self-center dropdown-language">
                     <a class="dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="fa fa-globe"><span>
+                        <span class="fa fa-globe"><span>&nbsp;
                     </a>
 
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">

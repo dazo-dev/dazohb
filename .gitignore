@@ -45,3 +45,5 @@ Homestead.json
 .phpunit.result.cache
 
 node_modules
+
+/storage/framework

@@ -14,7 +14,7 @@
 
 			
 
-			<a href="//{{$result->b_link}}" class="margin-x-auto" target=_blank><img src="{{$url}}dazohb2/public/uploads/banner-img/{{$result->b_img_path}}" style="width:1092px;height:300px;"></a>
+			<a href="//{{$result->b_link}}" class="margin-x-auto" target=_blank><img src="{{$url}}uploads/banner-img/{{$result->b_img_path}}"></a>
 
 			
 

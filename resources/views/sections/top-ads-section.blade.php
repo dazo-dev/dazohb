@@ -1,4 +1,4 @@
-<div id="carouselExampleIndicators" class="carousel slide p-0" data-ride="carousel">
+<div id="topadsCarouselIndicator" class="carousel slide p-0" data-ride="carousel">
 
 @php
 
@@ -40,7 +40,7 @@
 
     
 
-      <a href="//{{$data['topbanner'][$i]->b_link}}" target="_blank"><img class="d-block w-100" src="{{$url}}dazohb2/public/uploads/banner-img/{{$data['topbanner'][$i]->b_img_path}}" alt="First slide" style="height: 300px !important;"></a>
+      <a href="//{{$data['topbanner'][$i]->b_link}}" target="_blank"><img src="{{$url}}uploads/banner-img/{{$data['topbanner'][$i]->b_img_path}}" alt="First slide"></a>
 
     </div>
 
@@ -52,7 +52,7 @@
 
   </div>
 
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#topadsCarouselIndicator" role="button" data-slide="prev">
 
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 
@@ -60,7 +60,7 @@
 
   </a>
 
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#topadsCarouselIndicator" role="button" data-slide="next">
 
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
 
