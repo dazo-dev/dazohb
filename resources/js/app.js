@@ -3991,6 +3991,7 @@ $( document ).ready( function() {
 
 
 		$('.total-amt').html('').html(atotal);
+		$('#subs-packages-amount').html(atotal);
 
 
 
@@ -4018,7 +4019,7 @@ $( document ).ready( function() {
 
 	  var txt;
 
-	  var r = confirm("Are you sure you want to avail this race program?");
+	  var r = true; //confirm("Are you sure you want to avail this race program?");
 
 	  if (r == true) {
 
@@ -4088,7 +4089,10 @@ $( document ).ready( function() {
 
 			console.log(response);
 
-			location.reload();
+			//location.reload();
+
+			$('#modal-subscription-package-confirmation').modal('toggle');
+			$('#modal-subscription-package-successful').modal('toggle');
 
 		});
 
@@ -4106,14 +4110,18 @@ $( document ).ready( function() {
 
 
 
-	$(document).on('click', '.btn-subscribe', function(event) {
+	// $(document).on('click', '.btn-subscribe', function(event) {
 
 
 
+	// 	myFunction();
+
+
+
+	// });
+
+	$('#subs-packages-btn-purchase').on('click', () => {
 		myFunction();
-
-
-
 	});
 
 

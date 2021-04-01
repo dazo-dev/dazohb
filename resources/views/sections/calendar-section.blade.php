@@ -13,7 +13,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="row">
-        <div class="col-lg-6 col-12">
+        <div class="col-lg-6 col-xl-6 col-12">
           <div class="block-header">CREATE YOUR ACCOUNT TODAY</div>
           <div class="block-sub">Get Updated with Every Race Results and Details</div>
           <div class="block-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</div>

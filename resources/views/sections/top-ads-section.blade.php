@@ -40,7 +40,7 @@
 
     
 
-      <a href="//{{$data['topbanner'][$i]->b_link}}" target="_blank"><img src="{{$url}}uploads/banner-img/{{$data['topbanner'][$i]->b_img_path}}" alt="First slide"></a>
+      <a href="//{{$data['topbanner'][$i]->b_link}}" target="_blank"><img src="{{$url}}images/{{$data['topbanner'][$i]->b_img_path}}" alt="First slide"></a>
 
     </div>
 
